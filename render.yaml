@@ -4,7 +4,7 @@ services:
     name: yogiRenamebot
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python3 bot.py
+    startCommand: python3 -m bot
     repo: https://github.com/yogesh313r/Rename-Bot       
     branch: main
     envVars:
